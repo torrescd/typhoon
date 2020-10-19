@@ -4,6 +4,12 @@ Notable changes between versions.
 
 ## Latest
 
+### Flatcar Linux
+
+* Change `kubelet.service` container runner from rkt to docker ([#855](https://github.com/poseidon/typhoon/pull/855))
+* Change `delete-node.service` to be inlined and use docker ([#855](https://github.com/poseidon/typhoon/pull/855))
+    * Fix mount to restore permission to delete the local node on shutdown (cloud-only)
+
 ## v1.18.2
 
 * Kubernetes [v1.18.2](https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.18.md#v1182)

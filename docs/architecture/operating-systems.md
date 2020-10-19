@@ -36,7 +36,7 @@ Together, they diversify Typhoon to support a range of container technologies.
 | kubelet image     | kubelet [image](https://github.com/poseidon/kubelet) with upstream binary | kubelet [image](https://github.com/poseidon/kubelet) with upstream binary |
 | control plane images | upstream images | upstream images |
 | on-host etcd      | rkt-fly   | podman |
-| on-host kubelet   | rkt-fly   | podman |
+| on-host kubelet   | docker    | podman |
 | CNI plugins       | calico or flannel | calico or flannel |
 | coordinated drain & OS update | [CLUO](https://github.com/coreos/container-linux-update-operator) addon | (planned) |
 
