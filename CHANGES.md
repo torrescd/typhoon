@@ -6,6 +6,8 @@ Notable changes between versions.
 
 ### Flatcar Linux
 
+* Rename `container-linux` modules to `flatcar-linux` ([#858](https://github.com/poseidon/typhoon/issues/858)) (**action required**)
+* Change `etcd-member.service` container runnner from rkt to docker ([#867](https://github.com/poseidon/typhoon/pull/867))
 * Change `kubelet.service` container runner from rkt to docker ([#855](https://github.com/poseidon/typhoon/pull/855))
 * Change `delete-node.service` to be inlined and use docker ([#855](https://github.com/poseidon/typhoon/pull/855))
     * Fix mount to restore permission to delete the local node on shutdown (cloud-only)
